@@ -7,7 +7,7 @@ var app = express();
 var server = http.createServer(app);
 var usuarios = [];
 
-server.listen(3000, function(){
+server.listen( process.env.PORT || 3000, function(){
 	console.log("Corriendo en el puerto 3000");
 });
 
@@ -53,4 +53,3 @@ io.on('connection', function(socket){
 		actualizarUsuarios();
 	});
 });
-
