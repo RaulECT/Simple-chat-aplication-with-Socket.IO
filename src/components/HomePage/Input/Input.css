@@ -1,0 +1,9 @@
+.home-page__input {
+  width: 22.5rem;
+  height: 3rem;
+  font-size: 1.2rem;
+  background: rgba(216, 216, 216, 0.4);
+  border: none;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}

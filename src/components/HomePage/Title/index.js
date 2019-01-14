@@ -1,12 +1,14 @@
 import React, { Component, Fragment } from 'react'
 
+import './Title.css'
+
 class Title extends Component {
 
   render() {
     return (
       <Fragment>
-        <h1>ChatJS</h1>
-        <h2>Find new people!!</h2>
+        <h1 className="home-page__main-title">ChatJS</h1>
+        <h2 className="home-page__sub-title">Find new people!!</h2>
       </Fragment>
     )
   }

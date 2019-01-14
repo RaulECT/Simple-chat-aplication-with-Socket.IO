@@ -1,0 +1,9 @@
+.home-page__button {
+  width: 22.8rem;
+    height: 3.5rem;
+    background: #504F4F;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
